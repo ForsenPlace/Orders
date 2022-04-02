@@ -4,9 +4,11 @@ Forsen related orders. Forsen commands, pixels, colors, image processing, total 
 
 ## Format
 
-Orders are generated using `reference.py` from the `reference.png` image.
+Orders are generated using `reference.py` from the `reference.png` image. Orders are prioritized according to the alpha channel in `priority.png`
 
 ![reference](reference.png)
+
+![priority](priority.png)
 
 `orders.json` is a list of orders, each order is just a list of three things:
 
