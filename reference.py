@@ -7,36 +7,25 @@ priority = Image.open('priority.png')
 pixels_priority = priority.load()
 
 color_mappings = {
+    '#BE0039': 1,
     '#FF4500': 2,
     '#FFA800': 3,
     '#FFD635': 4,
     '#00A368': 6,
+    '#00CC78': 7,
     '#7EED56': 8,
+    '#00756F': 9,
+    '#009EAA': 10,
     '#2450A4': 12,
     '#3690EA': 13,
     '#51E9F4': 14,
+    '#493AC1': 15,
+    '#6A5CFF': 16,
     '#811E9F': 18,
     '#B44AC0': 19,
+    '#FF3881': 22,
     '#FF99AA': 23,
-    '#9C6926': 25,
-    '#000000': 27,
-    '#898D90': 29,
-    '#D4D7D9': 30,
-    '#FFFFFF': 31
-}
-
-prio_mappings = {
-    '#FF4500': 2,
-    '#FFA800': 3,
-    '#FFD635': 4,
-    '#00A368': 6,
-    '#7EED56': 8,
-    '#2450A4': 12,
-    '#3690EA': 13,
-    '#51E9F4': 14,
-    '#811E9F': 18,
-    '#B44AC0': 19,
-    '#FF99AA': 23,
+    '#6D482F': 24,
     '#9C6926': 25,
     '#000000': 27,
     '#898D90': 29,
@@ -53,7 +42,7 @@ prio3 = []
 prio4 = []
 prio5 = []
 
-for x in range(1000):
+for x in range(2000):
     for y in range(1000):
         colors = pixels_reference[x, y]
         if colors[3] == 0:
