@@ -50,7 +50,6 @@ for x in range(2000):
         hex = rgb_to_hex((colors[0], colors[1], colors[2]))
         colorid = color_mappings[hex]
         prio_alpha = pixels_priority[x, y][3]
-
         if prio_alpha == 255:
             prio1.append([x, y, colorid])
         elif prio_alpha >= 200:
