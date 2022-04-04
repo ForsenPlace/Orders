@@ -51,7 +51,7 @@ prio4 = []
 prio5 = []
 
 for x in range(2000):
-    for y in range(1000):
+    for y in range(2000):
         colors = pixels_reference[x, y]
         if colors[3] == 0:
             continue
